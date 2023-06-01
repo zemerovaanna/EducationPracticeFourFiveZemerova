@@ -1,0 +1,41 @@
+﻿^contentpage {
+    background-color: black;
+    margin: 20;
+}
+
+#entryy{
+    font-size:10;
+    color: black;
+    background-color: white;
+    margin: 30,0,30,0;
+}
+
+#header {
+    font-size: 50;
+    font-weight: bold;
+    color: white;
+}
+
+#button {
+    background-color: red;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    border-width: 20;
+    margin: 30,0,30,0;
+}
+
+.label {
+    font-size:10;
+    color: white;
+}
+
+.picker {
+    color: black;
+    background: white;
+}
+
+.datepicker {
+    background-color: white;
+    color: black;
+}

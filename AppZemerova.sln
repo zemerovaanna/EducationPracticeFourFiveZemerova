@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppZemerova.Android", "AppZemerova.Android\AppZemerova.Android.csproj", "{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppZemerova", "AppZemerova\AppZemerova.csproj", "{1A4E292E-8311-4B33-A19A-CDE030A10AE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF987ACE-12ED-4C66-8E2C-11BD03F9F0BF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4E292E-8311-4B33-A19A-CDE030A10AE8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF600ECF-096F-4A9D-B0FD-C9D703A642C1}
+	EndGlobalSection
+EndGlobal

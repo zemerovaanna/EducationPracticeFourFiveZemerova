@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppZemerova.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="FlyoutPage.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Welcome" StyleId="header" Margin="30" VerticalTextAlignment="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Entry Placeholder="Name" x:Name="name" StyleId="entryy" PlaceholderColor="Black"/>
+            <Entry Placeholder="Password" IsPassword="True" x:Name="password" StyleId="entryy" PlaceholderColor="Black"/>
+            <Button Text="Sing in" StyleId="button" x:Name="singin" Clicked="ButtonClicked"/>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <CheckBox Margin="25,0,0,0" Color="Red"/>
+                <Label  Text="Remember me!" StyleId="label" Margin="-10,6,0,0"/>
+                <Label  Text="I Forgot!"    StyleId="label" Margin="150,5,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

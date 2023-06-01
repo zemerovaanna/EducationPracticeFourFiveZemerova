@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppZemerova.Course"
+             Title="Курс валют">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="FlyoutPage.css"/>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+
+        <StackLayout Orientation="Horizontal">
+
+            <StackLayout Orientation="Vertical">
+
+                <Label Text="Центробанк РФ:"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label  Text="USD" FontSize="Large"/>
+                    <Entry x:Name="usdEntry" StyleId="entryy" Placeholder="Введите курс доллара" TextChanged="USDChanged" PlaceholderColor="Black"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="EUR" FontSize="Large"/>
+                    <Label x:Name="eurLabel" Text="86.000" TextDecorations="Underline" Margin="30,10,30,0"/>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="GetText"/>
+                <DatePicker StyleId="datepicker"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
